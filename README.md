@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author**
-- Didier Peran Ganthier
+- Ismail Ali Changezi
 - GitHub: [IsmailChangezi](https://github.com/IsmailChangezi)
 - LinkedIn: [IsmailChangezi](https://www.linkedin.com/in/ismail-changezi-34a138215/)
 
