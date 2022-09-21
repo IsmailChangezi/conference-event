@@ -28,13 +28,15 @@ body {
 }
 
 .lower-nav-ul.show {
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(66, 65, 70, 0.4);
+  background-color: rgba(66, 65, 70);
   margin-top: 0;
 }
 
@@ -88,6 +90,7 @@ body {
 }
 
 .fa-xmark {
+  position: fixed;
   display: none;
 }
 
@@ -355,6 +358,24 @@ input {
 .seventeen {
   background-image: url(images/past2.jpg);
   background-size: 100% auto;
+}
+
+.index-footer {
+  width: 100%;
+  height: 200px;
+  background-color: #272a31;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.index-footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  color: #fff;
 }
 
 .about-footer {
