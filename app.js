@@ -70,7 +70,8 @@ const speakers = document.getElementById('speaker');
 
 function generateSpeakerCard() {
   speakers.innerHTML = speakerArray
-    .map((x) => `
+    .map(
+      (x) => `
    
     <div class="speaker-cards-container">
       <div class="speaker-card">
@@ -89,7 +90,8 @@ function generateSpeakerCard() {
         </div>
       </div>
     </div>
-    `)
+    `,
+    )
     .join('');
 }
 generateSpeakerCard();
